@@ -36,7 +36,7 @@ nav a:hover {
 footer {
     background-color: #34495e;
     padding: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     color: white;
@@ -58,8 +58,11 @@ footer a:hover {
 
 /*********** Splash Page ************************/
 header {
-    text-align: center;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
     background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
     color: white;
 }
@@ -67,7 +70,7 @@ header {
 header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    margin: 0 0 1rem 0;
+    margin: 0;
     color: #ffffff;
 }
 
@@ -75,6 +78,7 @@ header img {
     border-radius: 15%;
     border: 8px solid white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 0;
 }
 
 .address {
@@ -97,11 +101,11 @@ header img {
 hr {
     border: none;
     border-top: 2px solid #ddd;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 section {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -206,6 +210,10 @@ section a:hover {
 
     .three-col {
         grid-template-columns: 1fr;
+    }
+    
+    header {
+        padding: 1rem;
     }
     
     header h1 {
